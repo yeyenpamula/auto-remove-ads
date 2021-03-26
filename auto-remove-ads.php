@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Plugin Name: Automatic Remove Ads
  * Description: This plugin is simple and created for auto remove and auto extend display ads on classified website
- * Version: 1.1.2
+ * Version: 1.1.4
  * Author: Yeyen Pamula
  * Author URI: https://tsabitlabs.com
  */
