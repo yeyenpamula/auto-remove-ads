@@ -330,6 +330,11 @@ function ara_posts_column_expired_date($defaults) {
 }
 function ara_posts_custom_column_expired_date($column_name, $id) {
     if($column_name === 'expired_date') {
-        echo get_post_meta($id, "expired_date", true);
+        $expired_date = get_post_meta($id, "expired_date", true);
+        if( $expired_date == 0 ):
+            echo "Permanent";
+        else:
+            echo $expired_date;
+        endif;
     }
 }
